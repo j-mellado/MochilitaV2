@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_tolower.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jmellado <jmellado@student.42malaga.fr>    +#+  +:+       +#+        */
+/*   By: jmellado <jmellado@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/16 13:26:28 by jmellado          #+#    #+#             */
-/*   Updated: 2024/09/16 13:27:42 by jmellado         ###   ########.fr       */
+/*   Updated: 2024/09/20 13:26:37 by jmellado         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

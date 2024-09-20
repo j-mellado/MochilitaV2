@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isascii.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jmellado <jmellado@student.42malaga.fr>    +#+  +:+       +#+        */
+/*   By: jmellado <jmellado@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/11 14:36:25 by jmellado          #+#    #+#             */
-/*   Updated: 2024/09/16 13:11:43 by jmellado         ###   ########.fr       */
+/*   Updated: 2024/09/20 13:26:10 by jmellado         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

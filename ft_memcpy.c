@@ -3,15 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memcpy.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jmellado <jmellado@student.42malaga.fr>    +#+  +:+       +#+        */
+/*   By: jmellado <jmellado@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/16 12:12:29 by jmellado          #+#    #+#             */
-/*   Updated: 2024/09/16 13:11:35 by jmellado         ###   ########.fr       */
+/*   Updated: 2024/09/20 13:44:43 by jmellado         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <string.h>
 
 void	*ft_memcpy(void *dest, const void *src, size_t count)
 {
@@ -22,6 +21,10 @@ void	*ft_memcpy(void *dest, const void *src, size_t count)
 	s = (const unsigned char *)src;
 	d = (unsigned char *)dest;
 	i = 0;
+	while (dest == src || !count)
+	{
+		return (dest);
+	}
 	while (i < count)
 	{
 		d[i] = s[i];

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isalnum.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jmellado <jmellado@student.42malaga.fr>    +#+  +:+       +#+        */
+/*   By: jmellado <jmellado@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/16 12:11:49 by jmellado          #+#    #+#             */
-/*   Updated: 2024/09/16 13:11:46 by jmellado         ###   ########.fr       */
+/*   Updated: 2024/09/20 13:26:05 by jmellado         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

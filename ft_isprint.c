@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isprint.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jmellado <jmellado@student.42malaga.fr>    +#+  +:+       +#+        */
+/*   By: jmellado <jmellado@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/11 15:43:55 by jmellado          #+#    #+#             */
-/*   Updated: 2024/09/16 13:11:39 by jmellado         ###   ########.fr       */
+/*   Updated: 2024/09/20 13:26:20 by jmellado         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
