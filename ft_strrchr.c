@@ -6,13 +6,13 @@
 /*   By: jmellado <jmellado@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/20 14:56:25 by jmellado          #+#    #+#             */
-/*   Updated: 2024/09/23 16:37:27 by jmellado         ###   ########.fr       */
+/*   Updated: 2024/10/05 14:02:59 by jmellado         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*strrchr(const char *str, int c)
+char	*ft_strrchr(const char *str, int c)
 {
 	char	*aux;
 

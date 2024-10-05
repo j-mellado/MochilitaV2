@@ -6,7 +6,7 @@
 /*   By: jmellado <jmellado@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/11 15:55:43 by jmellado          #+#    #+#             */
-/*   Updated: 2024/09/20 13:44:35 by jmellado         ###   ########.fr       */
+/*   Updated: 2024/10/05 14:18:42 by jmellado         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 size_t	ft_strlen(const char *s)
 {
-	int	len;
+	size_t	len;
 
 	len = 0;
 	while (*s != '\0')
@@ -24,3 +24,16 @@ size_t	ft_strlen(const char *s)
 	}
 	return (len);
 }
+
+/*
+int main()
+{
+	const char str[] = "12345678"
+	size_t len;
+
+	len = ft_strlen(str);
+	printf("the len of str is %zu");
+
+	return (0);
+}
+*/
