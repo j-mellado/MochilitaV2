@@ -6,7 +6,7 @@
 /*   By: jmellado <jmellado@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/20 13:29:45 by jmellado          #+#    #+#             */
-/*   Updated: 2024/10/05 14:02:42 by jmellado         ###   ########.fr       */
+/*   Updated: 2024/10/05 15:55:30 by jmellado         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,5 +27,5 @@ char	*ft_strchr(const char *str, int c)
 	}
 	if (*ptr == '\0')
 		return (ptr);
-	return (NULL);
+	return ('\0');
 }
