@@ -25,3 +25,28 @@ void	ft_bzero(void *s, size_t n)
 		i++;
 	}
 }
+
+
+/*
+#include <stdio.h> needed for test
+int main()
+{
+    size_t n;
+	char str[11] = "abcdefghij";
+	char *rest_str;
+
+	n = 5;
+
+	printf("before the ft %s\n", str);
+
+	ft_bzero(str,n);
+
+	printf("after the ft %s\n", str);
+
+	rest_str = str + n;
+
+	printf("rest of string %s\n", rest_str);
+
+    return 0;
+}
+*/

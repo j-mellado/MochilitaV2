@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "libft.h"  //ESTE EXPLOTO REVISAR
 
 char	*ft_strchr(const char *str, int c)
 {

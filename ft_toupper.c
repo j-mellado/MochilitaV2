@@ -30,7 +30,6 @@ int main()
     letter = 'b';
     int upper;
 
-
     upper = ft_toupper(letter);
     printf("before toupper'%c' after toupper %c\n", letter, upper);
 

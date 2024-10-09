@@ -26,3 +26,16 @@ void	*ft_memset(void *s, int c, size_t n)
 	}
 	return (s);
 }
+/*
+int main()
+{
+	char str[] = "bbbbb";
+	int letter = 'a';
+
+	printf("before the ft %s\n",str);
+	char*result = ft_memset(str,letter,5);
+	printf("after the ft %s\n",str);
+
+	return (0);
+}
+*/

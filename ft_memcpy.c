@@ -32,3 +32,17 @@ void	*ft_memcpy(void *dest, const void *src, size_t count)
 	}
 	return (dest);
 }
+
+/*
+int main()
+{
+	char str1[] = "hola";
+	char str2[] = "Mox";
+
+	printf("before the ft %s\n",str1);
+	char* result = ft_memcpy(str1,str2,2);
+	prinft("after the ft %s\n",str1);
+
+	return(0);
+}
+*/

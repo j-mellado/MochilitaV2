@@ -31,3 +31,19 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t size)
 	dst[i] = '\0';
 	return (srclen);
 }
+/*
+int main()
+{
+	size_t result;
+	char dest[15];
+	const char source[] = "Hello World!";
+	size_t bufferdest;
+
+	bufferdest = 15;
+	printf("dest before ft %s\n",dest);
+	result = ft_strlcpy(dest,source,bufferdest);
+	printf("dest after ft %s\n",dest);
+
+	return (0);
+}
+*/

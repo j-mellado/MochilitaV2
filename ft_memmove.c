@@ -17,7 +17,7 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 	unsigned char		*d;
 	unsigned const char	*s;
 
-	if (dest < src)
+	if (dest < src) //la comparacion esta comparando la direccion de memoria de la primera casilla del array
 		return (ft_memcpy(dest, src, n));
 	d = (unsigned char *)dest;
 	s = (unsigned const char *)src;

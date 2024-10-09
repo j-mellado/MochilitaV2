@@ -31,6 +31,7 @@ void	*ft_memchr(const void *s, int c, size_t n)
 }
 
 /*
+#include <stdio.h> needed for test
 int main()
 {
     const char str[] = "String Test";

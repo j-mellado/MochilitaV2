@@ -24,15 +24,15 @@ size_t	ft_strlen(const char *s)
 	}
 	return (len);
 }
-
 /*
+#include <stdio.h>
 int main()
 {
-	const char str[] = "12345678"
-	size_t len;
+	const char str[] = "12345678";
+	size_t ln;
 
-	len = ft_strlen(str);
-	printf("the len of str is %zu");
+	ln = ft_strlen(str);
+	printf("the len of str is %zu", ln);
 
 	return (0);
 }

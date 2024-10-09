@@ -22,11 +22,9 @@ int	ft_isalpha(int c)
 int main()
 {
     int letter;
-
-    letter = 'A';
     int result;
 
-
+    letter = 'A';
     result = ft_isalpha(letter);
     printf("Is '%c' an alphabetic character? %d\n", letter, result);
 
