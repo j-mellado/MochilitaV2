@@ -6,7 +6,7 @@
 /*   By: jmellado <jmellado@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/16 12:11:49 by jmellado          #+#    #+#             */
-/*   Updated: 2024/10/05 13:57:44 by jmellado         ###   ########.fr       */
+/*   Updated: 2024/10/09 15:14:20 by jmellado         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,20 +19,18 @@ int	ft_isalnum(int c)
 }
 /*
 #include <stdio.h> needed for test
-int main()
+
+int	main(void)
 {
-    int alnum;
+	int	alnum;
+	int	result;
 
-    alnum = '5';
-    int result;
-
-    result = ft_isalnum(alnum);
-    printf("Is '%c' an alphanumeric character? %d\n", al+num, result);
-
-    alnum = '-';
-    result = ft_isalnum(alnum);
-
-    printf("Is '%c' an alphanumeric character? %d\n", alnum, result);
-    return(0);
+	alnum = '5';
+	result = ft_isalnum(alnum);
+	printf("Is '%c' an alphanumeric character? %d\n", al+num, result);
+	alnum = '-';
+	result = ft_isalnum(alnum);
+	printf("Is '%c' an alphanumeric character? %d\n", alnum, result);
+	return(0);
 }
 */

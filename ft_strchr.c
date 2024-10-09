@@ -6,11 +6,11 @@
 /*   By: jmellado <jmellado@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/20 13:29:45 by jmellado          #+#    #+#             */
-/*   Updated: 2024/10/05 15:55:30 by jmellado         ###   ########.fr       */
+/*   Updated: 2024/10/09 17:34:45 by jmellado         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"  //ESTE EXPLOTO REVISAR
+#include "libft.h" //ESTE EXPLOTO REVISAR
 
 char	*ft_strchr(const char *str, int c)
 {
@@ -25,7 +25,9 @@ char	*ft_strchr(const char *str, int c)
 		}
 		ptr++;
 	}
-	if (*ptr == '\0')
-		return (ptr);
-	return ('\0');
+	  if (c == '\0')
+    {
+        return (ptr);
+    }
+	return (NULL);
 }

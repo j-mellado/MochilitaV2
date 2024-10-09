@@ -6,7 +6,7 @@
 /*   By: jmellado <jmellado@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/16 13:26:28 by jmellado          #+#    #+#             */
-/*   Updated: 2024/10/05 13:44:45 by jmellado         ###   ########.fr       */
+/*   Updated: 2024/10/09 15:15:19 by jmellado         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,26 +22,21 @@ int	ft_tolower(int c)
 }
 /*
 #include <stdio.h> needed for test
-int main()
+
+int	main(void)
 {
-    int letter;
+	int	letter;
+	int	lower;
 
-    letter = 'C';
-    int lower;
-
-
-    lower = ft_tolower(letter);
-    printf("before tolower'%c' after tolower %c\n", letter, lower);
-
-    letter = 'c';
-    lower =  ft_tolower(letter);
+	letter = 'C';
+	lower = ft_tolower(letter);
 	printf("before tolower'%c' after tolower %c\n", letter, lower);
-
+	letter = 'c';
+	lower =  ft_tolower(letter);
+	printf("before tolower'%c' after tolower %c\n", letter, lower);
 	letter = '9';
-    lower =  ft_tolower(letter);
+	lower =  ft_tolower(letter);
 	printf("before tolower'%c' after tolower %c\n", letter, lower);
-
-
-    return(0);
+	return(0);
 }
 */

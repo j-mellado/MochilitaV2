@@ -6,7 +6,7 @@
 /*   By: jmellado <jmellado@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/16 12:12:29 by jmellado          #+#    #+#             */
-/*   Updated: 2024/09/20 13:44:43 by jmellado         ###   ########.fr       */
+/*   Updated: 2024/10/09 15:14:39 by jmellado         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,15 +34,14 @@ void	*ft_memcpy(void *dest, const void *src, size_t count)
 }
 
 /*
-int main()
+int	main(void)
 {
-	char str1[] = "hola";
-	char str2[] = "Mox";
+	char	str1[] = "hola";
+	char	str2[] = "Mox";
 
 	printf("before the ft %s\n",str1);
 	char* result = ft_memcpy(str1,str2,2);
 	prinft("after the ft %s\n",str1);
-
 	return(0);
 }
 */

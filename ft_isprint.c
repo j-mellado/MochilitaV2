@@ -6,7 +6,7 @@
 /*   By: jmellado <jmellado@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/11 15:43:55 by jmellado          #+#    #+#             */
-/*   Updated: 2024/10/05 13:33:06 by jmellado         ###   ########.fr       */
+/*   Updated: 2024/10/09 15:14:33 by jmellado         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,21 +19,18 @@ int	ft_isprint(int c)
 
 /*
 #include <stdio.h> needed for test
-int main()
+
+int	main(void)
 {
-    int print;
+	int	print;
+	int	result;
 
-    print = '5';
-    int result;
-
-
-    result = ft_isprint(print);
-    printf("Is '%c' a printable character? %d\n", print, result);
-
-    print = 'ø';
-    result = ft_isprint(print);
-
-    printf("Is '%c' a printable character? %d\n", print, result);
-    return(0);
+	print = '5';
+	result = ft_isprint(print);
+	printf("Is '%c' a printable character? %d\n", print, result);
+	print = 'ø';
+	result = ft_isprint(print);
+	printf("Is '%c' a printable character? %d\n", print, result);
+	return(0);
 }
 */

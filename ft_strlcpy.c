@@ -6,7 +6,7 @@
 /*   By: jmellado <jmellado@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/16 13:30:18 by jmellado          #+#    #+#             */
-/*   Updated: 2024/10/05 12:57:39 by jmellado         ###   ########.fr       */
+/*   Updated: 2024/10/09 15:15:08 by jmellado         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,18 +32,17 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t size)
 	return (srclen);
 }
 /*
-int main()
+int	main(void)
 {
-	size_t result;
-	char dest[15];
-	const char source[] = "Hello World!";
-	size_t bufferdest;
+	size_t		result;
+	char		dest[15];
+	const char	source[] = "Hello World!";
+	size_t		bufferdest;
 
 	bufferdest = 15;
 	printf("dest before ft %s\n",dest);
 	result = ft_strlcpy(dest,source,bufferdest);
 	printf("dest after ft %s\n",dest);
-
 	return (0);
 }
 */

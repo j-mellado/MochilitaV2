@@ -6,7 +6,7 @@
 /*   By: jmellado <jmellado@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/11 15:55:43 by jmellado          #+#    #+#             */
-/*   Updated: 2024/10/05 14:18:42 by jmellado         ###   ########.fr       */
+/*   Updated: 2024/10/09 15:15:10 by jmellado         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,14 +26,14 @@ size_t	ft_strlen(const char *s)
 }
 /*
 #include <stdio.h>
-int main()
+
+int	main(void)
 {
-	const char str[] = "12345678";
-	size_t ln;
+	const char	str[] = "12345678";
+	size_t		ln;
 
 	ln = ft_strlen(str);
 	printf("the len of str is %zu", ln);
-
 	return (0);
 }
 */

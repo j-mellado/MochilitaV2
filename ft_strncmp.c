@@ -6,13 +6,13 @@
 /*   By: jmellado <jmellado@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/23 15:53:24 by jmellado          #+#    #+#             */
-/*   Updated: 2024/09/23 17:00:44 by jmellado         ###   ########.fr       */
+/*   Updated: 2024/10/09 15:35:18 by jmellado         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_strncmp(const char *s1, const char *s2, size_t n) //HA EXPLOTAO REVISAR
+int	ft_strncmp(const char *s1, const char *s2, size_t n)
 {
 	size_t	i;
 
