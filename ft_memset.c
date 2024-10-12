@@ -6,7 +6,7 @@
 /*   By: jmellado <jmellado@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/12 12:12:28 by jmellado          #+#    #+#             */
-/*   Updated: 2024/10/09 15:14:46 by jmellado         ###   ########.fr       */
+/*   Updated: 2024/10/12 17:22:51 by jmellado         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,7 @@ void	*ft_memset(void *s, int c, size_t n)
 	return (s);
 }
 /*
-int	main(void)
+int	main(void) <stdio.h> needed for test
 {
 	char	str[] = "bbbbb";
 	int		letter;

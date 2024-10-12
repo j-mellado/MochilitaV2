@@ -6,7 +6,7 @@
 /*   By: jmellado <jmellado@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/16 13:30:18 by jmellado          #+#    #+#             */
-/*   Updated: 2024/10/09 15:15:08 by jmellado         ###   ########.fr       */
+/*   Updated: 2024/10/12 17:22:57 by jmellado         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,7 +32,7 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t size)
 	return (srclen);
 }
 /*
-int	main(void)
+int	main(void) <stdio.h> needed for test
 {
 	size_t		result;
 	char		dest[15];

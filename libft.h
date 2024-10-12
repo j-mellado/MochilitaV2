@@ -6,7 +6,7 @@
 /*   By: jmellado <jmellado@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/11 11:38:14 by jmellado          #+#    #+#             */
-/*   Updated: 2024/10/05 15:39:16 by jmellado         ###   ########.fr       */
+/*   Updated: 2024/10/12 18:02:08 by jmellado         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,9 @@ int		ft_isdigit(int c);
 int		ft_isalnum(int c);
 int		ft_isascii(int c);
 int		ft_isprint(int c);
+int		ft_memcmp(const void *s1, const void *s2, size_t n);
 int		ft_strncmp(const char *s1, const char *s2, size_t n);
+char	*ft_strnstr(const char *str, const char *substr, size_t len);
 char	*ft_strchr(const char *str, int c);
 char	*ft_strrchr(const char *str, int c);
 void	*ft_memset(void *s, int c, size_t n);

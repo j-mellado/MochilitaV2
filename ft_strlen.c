@@ -6,7 +6,7 @@
 /*   By: jmellado <jmellado@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/11 15:55:43 by jmellado          #+#    #+#             */
-/*   Updated: 2024/10/09 15:15:10 by jmellado         ###   ########.fr       */
+/*   Updated: 2024/10/12 17:23:00 by jmellado         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ size_t	ft_strlen(const char *s)
 	return (len);
 }
 /*
-#include <stdio.h>
+#include <stdio.h> <stdio.h> needed for test
 
 int	main(void)
 {
