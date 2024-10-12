@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h" //ESTE EXPLOTO REVISAR
+#include "libft.h"
 
 char	*ft_strchr(const char *str, int c)
 {
@@ -19,7 +19,7 @@ char	*ft_strchr(const char *str, int c)
 	ptr = (char *)str;
 	while (*ptr != '\0')
 	{
-		if (*ptr == (char)c)
+		if (*ptr == (unsigned char)c)
 		{
 			return (ptr);
 		}
