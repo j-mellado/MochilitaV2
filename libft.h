@@ -6,17 +6,18 @@
 /*   By: jmellado <jmellado@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/11 11:38:14 by jmellado          #+#    #+#             */
-/*   Updated: 2024/10/25 10:15:58 by jmellado         ###   ########.fr       */
+/*   Updated: 2024/11/05 11:07:51 by jmellado         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
 
+# include <limits.h>
 # include <stddef.h>
 # include <stdlib.h>
 # include <string.h>
-# include <limits.h>
+# include <unistd.h>
 
 int		ft_tolower(int c);
 int		ft_toupper(int c);
@@ -36,18 +37,19 @@ char	*ft_substr(char const *s, unsigned int start, size_t len);
 char	*ft_strdup(const char *s);
 char	*ft_strjoin(char const *s1, char const *s2);
 char	*ft_strtrim(char const *s1, char const *set);
-char *ft_strmapi(char const *s, char (*f)(unsigned int, char));
+char	*ft_strmapi(char const *s, char (*f)(unsigned int, char));
 void	ft_bzero(void *s, size_t n);
-void ft_putendl_fd(char *s, int fd);
-void ft_putstr_fd(char *s, int fd);
-void ft_putchar_fd(char c, int fd);
-void ft_putnbr_fd(int n, int fd);
-void ft_striteri(char *s, void (*f)(unsigned int,char*));
+void	ft_putendl_fd(char *s, int fd);
+void	ft_putstr_fd(char *s, int fd);
+void	ft_putchar_fd(char c, int fd);
+void	ft_putnbr_fd(int n, int fd);
+void	ft_striteri(char *s, void (*f)(unsigned int, char *));
 void	*ft_memset(void *s, int c, size_t n);
 void	*ft_calloc(size_t num, size_t size);
 void	*ft_memchr(const void *s, int c, size_t n);
 void	*ft_memmove(void *dest, const void *src, size_t n);
 void	*ft_memcpy(void *dest, const void *src, size_t count);
 size_t	ft_strlcpy(char *dst, const char *src, size_t size);
+size_t	ft_strlcat(char *dst, const char *src, size_t dstsize);
 size_t	ft_strlen(const char *s);
 #endif

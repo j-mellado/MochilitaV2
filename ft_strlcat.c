@@ -6,7 +6,7 @@
 /*   By: jmellado <jmellado@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/12 16:13:33 by jmellado          #+#    #+#             */
-/*   Updated: 2024/10/12 16:20:29 by jmellado         ###   ########.fr       */
+/*   Updated: 2024/11/05 11:13:17 by jmellado         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
 	i = 0;
 	if (dstsize <= lendst)
 		return (lensrc + dstsize);
-	while (src[i] != '\0' && (lendst + 1) < (dstsize - 1))
+	while (src[i] != '\0' && (lendst + i) < (dstsize - 1))
 	{
 		dst[lendst + i] = src[i];
 		i++;
