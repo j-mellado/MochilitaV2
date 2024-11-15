@@ -6,7 +6,7 @@
 #    By: jmellado <jmellado@student.42malaga.com    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/10/12 16:12:47 by jmellado          #+#    #+#              #
-#    Updated: 2024/11/05 11:08:01 by jmellado         ###   ########.fr        #
+#    Updated: 2024/11/15 11:55:13 by jmellado         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -22,6 +22,7 @@ SRC =	ft_bzero.c ft_isalnum.c ft_isalpha.c ft_isascii.c ft_isdigit.c ft_isprint.
 	ft_strncmp.c ft_strrchr.c ft_tolower.c ft_toupper.c ft_memcmp.c ft_strnstr.c ft_atoi.c\
 	ft_calloc.c ft_strdup.c ft_substr.c ft_strjoin.c ft_strtrim.c ft_itoa.c ft_strmapi.c\
 	ft_putchar_fd.c ft_putstr_fd.c ft_putendl_fd.c ft_putnbr_fd.c ft_striteri.c ft_strlcat.c\
+	ft_split.c 
 
 OBJ = $(SRC:.c=.o)
 INCLUDE = libft.h

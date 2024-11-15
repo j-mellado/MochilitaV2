@@ -6,7 +6,7 @@
 /*   By: jmellado <jmellado@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/11 11:38:14 by jmellado          #+#    #+#             */
-/*   Updated: 2024/11/05 11:07:51 by jmellado         ###   ########.fr       */
+/*   Updated: 2024/11/15 12:10:43 by jmellado         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,6 +29,7 @@ int		ft_isprint(int c);
 int		ft_atoi(const char *str);
 int		ft_memcmp(const void *s1, const void *s2, size_t n);
 int		ft_strncmp(const char *s1, const char *s2, size_t n);
+char	**ft_split(char const *s, char c);
 char	*ft_itoa(int n);
 char	*ft_strnstr(const char *str, const char *substr, size_t len);
 char	*ft_strchr(const char *str, int c);
