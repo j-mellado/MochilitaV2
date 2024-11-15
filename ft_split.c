@@ -6,88 +6,57 @@
 /*   By: jmellado <jmellado@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/15 11:55:26 by jmellado          #+#    #+#             */
-/*   Updated: 2024/11/15 12:47:49 by jmellado         ###   ########.fr       */
+/*   Updated: 2024/11/15 13:25:32 by jmellado         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-static int	count_word(char const *s, char c)
+static size_t	count_word(char const *s, char c)
 {
-	size_t	in_word;
 	size_t	count;
 
-	in_word = 0;
+	if (!*s)
+		return (0);
 	count = 0;
 	while (*s)
 	{
-		if (*s != c && in_word == 0)
-		{
-			in_word = 1;
+		while (*s == c)
+			s++;
+		if (*s)
 			count++;
-		}
-		else if (*s == c)
-		{
-			in_word = 0;
-		}
-		s++;
+		while (*s != c && *s)
+			s++;
 	}
 	return (count);
 }
 
-static void	free_array(char **array)
-{
-	int	i;
-
-	i = 0;
-	while (array[i])
-	{
-		free(array[i]);
-		i++;
-	}
-	free(array);
-}
-
-static char	**splitwords(char const *s, char c, char **array)
-{
-	size_t	i;
-	size_t	h;
-	size_t	start;
-
-	i = 0;
-	h = 0;
-	start = 0;
-	while (s[i] != '\0')
-	{
-		if (s[i] != c && (s[i + 1] == c || s[i + 1] == '\0'))
-		{
-			array[h] = ft_substr(s, start, (i - start + 1));
-			if (!array[h])
-			{
-				free_array(array);
-				return (NULL);
-			}
-			h++;
-		}
-		if (s[i] == c && (s[i + 1] != c || s[i + 1] != '\0'))
-			start = i + 1;
-		i++;
-	}
-	array[h] = NULL;
-	return (array);
-}
-
 char	**ft_split(char const *s, char c)
 {
-	char	**split;
-	int		words;
+	char	**lst;
+	size_t	word_len;
+	int		i;
 
-	words = count_word(s, c);
-	split = malloc((words + 1) * sizeof(char *));
-	if (split == NULL)
-		return (NULL);
-	split = splitwords(s, c, split);
-	return (split);
+	lst = (char **)malloc((count_word(s, c) + 1) * sizeof(char *));
+	if (!s || !lst)
+		return (0);
+	i = 0;
+	while (*s)
+	{
+		while (*s == c && *s)
+			s++;
+		if (*s)
+		{
+			if (!ft_strchr(s, c))
+				word_len = ft_strlen(s);
+			else
+				word_len = ft_strchr(s, c) - s;
+			lst[i++] = ft_substr(s, 0, word_len);
+			s += word_len;
+		}
+	}
+	lst[i] = NULL;
+	return (lst);
 }
 
 /*int	main(void)
